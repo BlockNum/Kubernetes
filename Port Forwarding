@@ -1,0 +1,8 @@
+Port Forwarding 
+	Enable
+		ADD SERVICE
+			Service Name // Service Type TCP/UDP // IP del SV (por ej. 192.168.0.231)
+			Internal port 80 // Start Port (elegimos uno para que no sea facil, por ej. 7410)
+			// End Port (elegimos uno para que no sea facil, por ej. 7410)
+		SAVE y accedemos desde la maquina externa con la IP de la maquina madre, para saberla vamos a
+		https://www.cual-es-mi-ip.net/ e ingresamos la IP : puerto de Start (ej. 7410)
